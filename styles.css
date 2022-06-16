@@ -67,32 +67,192 @@
     margin-right:auto;
     width:50%;
 }
+.credit{
+    display:inline;
+    width:50%;
+    font-size:0.8vw;
+    background-color: rgba(45, 46, 47, 1);
+    color:white;
+    padding:1%;
+}
 .introContainer{
     display:flex;
     flex-direction:column;
     width:50%;
     margin-left:2vw;
 }
-.introHead{
-    display:flex;
+#introTop1{
+    margin-top:1vw;
+    margin-left:4vw;
+    font-size:2.2vw;
+    padding:0.5vw;
+    border-radius:1vw;
+    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    width:65%;
+    height:3vw;
+    background-color:rgba(45, 46, 47, 1);
     color:white;
-    font-size:1.2vw;
-    background-color:rgba(45, 46, 47, 1); 
-    height:8vh;
-    justify-content:center;
-    align-items:center;
 }
-.introText{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+#introTop2{
+    width:35%;
+    margin-left:4vw;
+    padding:0.5vw;
+    border-radius:1vw;
+    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    font-size:2.2vw;
+    background-color:rgba(45, 46, 47, 1);
+    color:white;
+}
+#introText{
     background-color:rgba(217, 217, 217, 1);
-    width:100%;
-    height:19vw;
-    margin-top:auto;
+    color:rgba(217, 217, 217, 1);
+    width:30%;
+    height:20vw;
+    margin-left:26vw;
+    margin-bottom:2vw;
+    border-style:solid;
+    border-color:rgba(248, 0, 0, 1);
+}
+.sec2{
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    height:8vw;
+    margin-top:10vw;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:10vw;
+}
+
+#benefitsButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+#balanceButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+#payButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+#requirementsButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+#experienceButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+#difficultyButton{
+    padding:4%;
+    border-color:rgba(248, 0, 0, 0.5)
+}
+.listHeaders{
+    width:95%;
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#liHeader1{
+    border-radius:1vw;
     border-style:solid;
-    border-width:thin;
-    border-color:rgba(248, 0, 0, 1);
+    border-color:rgba(248, 0, 0, 0.5);
+    margin-right:auto;
+    font-size:1.5vw;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:1%;
+    padding-bottom:1%;
+    color:white;
+    background-color: rgba(45, 46, 47, 1);
+}
+#liHeader2{
+    border-radius:1vw;
+    border-style:solid;
+    border-color:rgba(248, 0, 0, 0.5);
+    margin-left:auto;
+    font-size:1.5vw;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:1%;
+    padding-bottom:1%;
+    color:white;
+    background-color: rgba(45, 46, 47, 1);
+}
+.listContent{
+    display:flex;
+    width:95%;
+    margin-top:2vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#advList{
+    background-color: rgba(217, 217, 217, 1);
+    color:rgba(217, 217, 217, 1);
+    border-style:solid;
+    border-color:rgba(248, 0, 0, 0.5);
+    border-radius:0.8vw;
+    width:30%;
+}
+#disAdvList{
+    margin-left:auto;
+    background-color: rgba(217, 217, 217, 1);
+    color:rgba(217, 217, 217, 1);
+    border-style:solid;
+    border-color:rgba(248, 0, 0, 0.5);
+    border-radius:0.8vw;
+    width:30%;
+    height:25vw;
+}
+.sec3{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.motivationalHeader{
+    margin-top:15vw;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:2.5vw;
+    border-radius:0.8vw;
+    width:50%;
+    padding:1%;
+    height:3vw;
+    background-color: rgba(45, 46, 47, 1);
+    border-color: rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    color:white;
+}
+.motivationalText{
+    margin-top:2vw;
+    margin-left:auto;
+    margin-right:auto;
+    width:52%;
+    height:20vw;
+    background-color: rgba(217, 217, 217, 1);
+    border-color: rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    color:rgba(217, 217, 217, 1);
+}
+.footer{
+    display:flex;
+    background-color: rgba(45, 46, 47, 1);
+    color:white;
+    width:100%;
+    height:4vw;
+    justify-content:center;
+    align-items:center;
+    margin-top:20vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gitHubLink img{
+    display:block;
+    height:auto;
+    width:2vw;
+    margin-left:0.5vw;
 }
