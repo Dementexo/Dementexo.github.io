@@ -51,6 +51,7 @@
     display:flex;
     width:70%;
     justify-content:space-around;
+    font-family:monospace;
 }
 #aboutMe{
     margin-left:5%;
@@ -81,6 +82,7 @@
     margin-left:2vw;
     border-radius:1vw;
     background:linear-gradient(90deg, white 50%, rgba(214, 97, 97, 1) 50%);
+    box-shadow: 5px 5px 5px black;
 }
 #introTop1{
     margin-top:2vw;
@@ -118,17 +120,20 @@
     background: rgba(217, 217, 217, 1);
 }
 .sec2Header{
-    margin-top:20vw;
-    margin-bottom:20vw;
+    margin-top:15vw;
+    margin-bottom:15vw;
     width:10vw;
     height:14vw;
     margin-left:auto;
     margin-right:auto;
     font-size:3vw;
     padding:4%;
-    padding-right:6%;
+    padding-right:25%;
+    padding-left:15%;
     border-radius:1vw;
-    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgba(45, 46, 47, 1) 50%);
+    font-family:monospace;
+    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgb(52, 51, 51) 50%);
+    box-shadow: 5px 5px 5px black;
     color:white;
 }
 .sec2{
@@ -138,7 +143,7 @@
     height:8vw;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:20vw;
+    margin-bottom:15vw;
     background:linear-gradient(90deg, rgba(214, 97, 97, 1) 50%, white 50%);
     padding-left:2vw;
     padding-right:2vw;
@@ -148,40 +153,46 @@
 
 #benefitsButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:black;
+    border-width:thin;
 }
 #balanceButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:black;
+    border-width:thin;
 }
 #payButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:black;
+    border-width:thin;
 }
 #requirementsButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:rgba(248, 0, 0, 0.5);
 }
 #experienceButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:rgba(248, 0, 0, 0.5);
 }
 #difficultyButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5)
+    border-color:rgba(248, 0, 0, 0.5);
 }
 .listSecHeader{
-    margin-top:20vw;
-    margin-bottom:20vw;
+    margin-top:15vw;
+    margin-bottom:15vw;
     width:10vw;
     height:11vw;
     margin-left:auto;
     margin-right:auto;
     font-size:3vw;
     padding:4%;
-    padding-right:15%;
+    padding-right:31%;
+    padding-left:12%;
     border-radius:1vw;
-    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgba(45, 46, 47, 1) 50%);
+    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgb(52, 51, 51) 50%);
+    font-family:monospace;
+    box-shadow: 5px 5px 5px black;
     color:white;
 }
 .listHeaders{
@@ -207,7 +218,8 @@
 #liHeader2{
     border-radius:1vw;
     border-style:solid;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-color:black;
+    border-width:thin;
     margin-left:auto;
     font-size:1.5vw;
     padding-left:4%;
@@ -215,7 +227,7 @@
     padding-top:1%;
     padding-bottom:1%;
     color:white;
-    background-color: rgba(45, 46, 47, 1);
+    background-color:rgba(214, 97, 97, 1);
 }
 .listContent{
     display:flex;
@@ -233,13 +245,15 @@
     border-color:rgba(248, 0, 0, 0.5);
     border-radius:0.8vw;
     width:30%;
+    box-shadow: 5px 5px 5px black;
 }
 #disAdvList{
     margin-left:auto;
     background-color: rgba(217, 217, 217, 1);
     color:rgba(217, 217, 217, 1);
     border-style:solid;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-width:thin;
+    border-color:black;
     border-radius:0.8vw;
     width:30%;
     height:25vw;
@@ -273,6 +287,7 @@
     border-color: rgba(248, 0, 0, 0.5);
     border-style:solid;
     color:rgba(217, 217, 217, 1);
+    box-shadow: 5px 5px 5px black;
 }
 .footer{
     display:flex;
