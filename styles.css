@@ -32,9 +32,10 @@
 }
 .bottomHContent{
     display:flex;
-    background-color:rgba(214, 97, 97, 1);
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 #bottomHText{
     font-size:1.2vw;
     color:white;
@@ -45,16 +46,41 @@
 }
 .navBar{
     font-size:1.2vw;
-    margin-top:6vw;
-    margin-left:13vw;
+    margin-top:7vw;
+    margin-bottom:auto;
+    margin-left:auto;
     margin-right:auto;
     display:flex;
-    width:70%;
-    justify-content:space-around;
+    width:85%;
+    justify-content:space-evenly;
     font-family:monospace;
 }
-#aboutMe{
-    margin-left:5%;
+.aboutMe{
+    padding:1vw;
+}
+.dot1{
+    padding:1vw;
+}
+.TOP{
+    padding:1vw;
+}
+.dot2{
+    padding:1vw;
+}
+.homeIcon{
+    padding:1vw;
+}
+.dot3{
+    padding:1vw;
+}
+.myTools{
+    padding:1vw;  
+}
+.dot4{
+    padding:1vw;
+}
+.Resources{
+    padding:1vw;
 }
 .sec1{
     display:flex;
@@ -73,7 +99,8 @@
     font-size:0.8vw;
     background-color: rgba(45, 46, 47, 1);
     color:white;
-    padding:1%;
+    padding:1vw;
+    transition: all 0.3s ease-in-out;
 }
 .introContainer{
     display:flex;
@@ -81,7 +108,7 @@
     width:50%;
     margin-left:2vw;
     border-radius:1vw;
-    background:linear-gradient(90deg, white 50%, rgba(214, 97, 97, 1) 50%);
+    background:linear-gradient(to bottom right, #FF512F, #DD2476);
     box-shadow: 5px 5px 5px black;
 }
 #introTop1{
@@ -99,7 +126,6 @@
 #introTop2{
     width:35%;
     margin-left:4vw;
-    margin-bottom:1vw;
     padding:0.5vw;
     border-radius:1vw;
     border-style:solid;
@@ -109,15 +135,25 @@
     color:white;
 }
 #introText{
+    display:flex;
     background-color:rgba(217, 217, 217, 1);
     color:rgba(217, 217, 217, 1);
     width:12vw;
-    height:21vw;
-    margin-left:28.5vw;
-    margin-bottom:2vw;
+    height:19vw;   
+    align-self:flex-end;
+    margin-top:1vw;
+    margin-right:2vw;
+    margin-bottom:3vw;
     border-style:solid;
-    border-color:rgba(248, 0, 0, 1);
-    background: rgba(217, 217, 217, 1);
+    border-color:white;
+    border-width:0.3vw;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.3s ease-in-out;
+}
+.introIMG{
+    width:100%;
 }
 .sec2Header{
     margin-top:15vw;
@@ -132,7 +168,7 @@
     padding-left:15%;
     border-radius:1vw;
     font-family:monospace;
-    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgb(52, 51, 51) 50%);
+    background:linear-gradient(to bottom right, #FF512F, #DD2476);
     box-shadow: 5px 5px 5px black;
     color:white;
 }
@@ -144,7 +180,9 @@
     margin-left:auto;
     margin-right:auto;
     margin-bottom:15vw;
-    background:linear-gradient(90deg, rgba(214, 97, 97, 1) 50%, white 50%);
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-left:2vw;
     padding-right:2vw;
     padding-top:10vw;
@@ -153,17 +191,17 @@
 
 #benefitsButton{
     padding:4%;
-    border-color:black;
+    border-color:rgba(248, 0, 0, 0.5);
     border-width:thin;
 }
 #balanceButton{
     padding:4%;
-    border-color:black;
+    border-color:rgba(248, 0, 0, 0.5);
     border-width:thin;
 }
 #payButton{
     padding:4%;
-    border-color:black;
+    border-color:rgba(248, 0, 0, 0.5);
     border-width:thin;
 }
 #requirementsButton{
@@ -190,7 +228,7 @@
     padding-right:31%;
     padding-left:12%;
     border-radius:1vw;
-    background:linear-gradient(180deg, rgba(214, 97, 97, 1) 50%, rgb(52, 51, 51) 50%);
+    background:linear-gradient(to bottom right, #FF512F, #DD2476);
     font-family:monospace;
     box-shadow: 5px 5px 5px black;
     color:white;
@@ -213,7 +251,7 @@
     padding-top:1%;
     padding-bottom:1%;
     color:white;
-    background-color: rgba(45, 46, 47, 1);
+    background-color:rgba(45, 46, 47, 1);
 }
 #liHeader2{
     border-radius:1vw;
@@ -224,7 +262,7 @@
     padding-top:1%;
     padding-bottom:1%;
     color:white;
-    background-color:rgba(214, 97, 97, 1);
+    background-color:rgba(45, 46, 47, 1);
 }
 .listContent{
     display:flex;
@@ -232,8 +270,11 @@
     margin-top:2vw;
     margin-left:auto;
     margin-right:auto;
-    background:linear-gradient(90deg, white 50%, rgba(214, 97, 97, 1) 50%);
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding:2vw;
+    box-shadow: 5px 5px 5px black;
 }
 #advList{
     background-color: rgba(217, 217, 217, 1);
@@ -244,13 +285,23 @@
     width:30%;
     box-shadow: 5px 5px 5px black;
 }
-#disAdvList{
+.vsIMG{
+    width:10%;
+    height:10vw;
     margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#disAdvList{
     background-color: rgba(217, 217, 217, 1);
     color:rgba(217, 217, 217, 1);
+    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
     border-radius:0.8vw;
     width:30%;
     height:25vw;
+    box-shadow: 5px 5px 5px black;
 }
 .sec3{
     width:95%;

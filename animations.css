@@ -1,0 +1,90 @@
+.aboutMe:hover{
+    animation-name: bounce1;
+    animation-duration:0.5s;
+    animation-delay:250ms;
+}
+@keyframes bounce1{
+   from{
+    transform:translateY(0);;
+   }
+   50%{
+    transform:translateY(-10px);
+   }
+   to{
+    transform:translateY(0);
+   }
+}
+.TOP:hover{
+    animation-name: bounce2;
+    animation-duration:0.5s;
+    animation-delay:250ms;
+}
+@keyframes bounce2{
+   from{
+    transform:translateY(0);;
+   }
+   50%{
+    transform:translateY(-10px);
+   }
+   to{
+    transform:translateY(0);
+   }
+}
+.homeIcon:hover{
+    animation-name: bounce3;
+    animation-duration:0.5s;
+    animation-delay:250ms;
+}
+@keyframes bounce3{
+   from{
+    transform:translateY(0);;
+   }
+   50%{
+    transform:translateY(-10px);
+   }
+   to{
+    transform:translateY(0);
+   }
+}
+.myTools:hover{
+    animation-name: bounce4;
+    animation-duration:0.5s;
+    animation-delay:250ms;
+}
+@keyframes bounce4{
+   from{
+    transform:translateY(0);;
+   }
+   50%{
+    transform:translateY(-10px);
+   }
+   to{
+    transform:translateY(0);
+   }
+}
+.Resources:hover{
+    animation-name: bounce5;
+    animation-duration:0.5s;
+    animation-delay:250ms;
+}
+@keyframes bounce5{
+   from{
+    transform:translateY(0);;
+   }
+   50%{
+    transform:translateY(-10px);
+   }
+   to{
+    transform:translateY(0);
+   }
+}
+.credit:hover{
+    transform:scale(1.15);
+    margin-left:1.75vw;
+    margin-top:1.5vw;
+    animation-delay:250ms;
+}
+#introText:hover{
+    padding-left:29vw;
+    margin-bottom:3vw;
+}
