@@ -57,30 +57,35 @@
 }
 .aboutMe{
     padding:1vw;
+    padding-bottom:2vw;
 }
 .dot1{
     padding:1vw;
 }
 .TOP{
     padding:1vw;
+    padding-bottom:2vw;
 }
 .dot2{
     padding:1vw;
 }
 .homeIcon{
     padding:1vw;
+    padding-bottom:2vw;
 }
 .dot3{
     padding:1vw;
 }
 .myTools{
-    padding:1vw;  
+    padding:1vw;
+    padding-bottom:2vw;
 }
 .dot4{
     padding:1vw;
 }
 .Resources{
     padding:1vw;
+    padding-bottom:2vw;
 }
 .sec1{
     display:flex;
@@ -191,30 +196,45 @@
 
 #benefitsButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
-    border-width:thin;
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 #balanceButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
-    border-width:thin;
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 #payButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
-    border-width:thin;
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 #requirementsButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 #experienceButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 #difficultyButton{
     padding:4%;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-style:solid;
+    border-color:white;
+    border-width:0.8vw;
+    border-radius:0.8vw;
 }
 .listSecHeader{
     margin-top:15vw;
@@ -275,16 +295,15 @@
     background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding:2vw;
-    box-shadow: 5px 5px 5px black;
 }
 #advList{
     background-color: rgba(217, 217, 217, 1);
     color:rgba(217, 217, 217, 1);
     border-style:solid;
-    border-color:rgba(248, 0, 0, 0.5);
+    border-color:white;
+    border-width:0.8vw;
     border-radius:0.8vw;
     width:30%;
-    box-shadow: 5px 5px 5px black;
 }
 .vsIMG{
     width:10%;
@@ -297,12 +316,12 @@
 #disAdvList{
     background-color: rgba(217, 217, 217, 1);
     color:rgba(217, 217, 217, 1);
-    border-color:rgba(248, 0, 0, 0.5);
+    border-color:white;
     border-style:solid;
     border-radius:0.8vw;
+    border-width:0.8vw;
     width:30%;
     height:25vw;
-    box-shadow: 5px 5px 5px black;
 }
 .sec3{
     width:95%;
@@ -330,7 +349,6 @@
     width:52%;
     height:20vw;
     background-color: rgba(217, 217, 217, 1);
-    border-color: rgba(248, 0, 0, 0.5);
     border-style:solid;
     color:rgba(217, 217, 217, 1);
     box-shadow: 5px 5px 5px black;
