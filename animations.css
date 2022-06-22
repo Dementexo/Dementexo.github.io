@@ -1,82 +1,17 @@
 .aboutMe:hover{
-    animation-name: bounce1;
-    animation-duration:0.5s;
-    animation-delay:250ms;
-}
-@keyframes bounce1{
-   from{
-    transform:translateY(0);;
-   }
-   50%{
-    transform:translateY(-10px);
-   }
-   to{
-    transform:translateY(0);
-   }
+    transform:scale(1.5);
 }
 .TOP:hover{
-    animation-name: bounce2;
-    animation-duration:0.5s;
-    animation-delay:250ms;
-}
-@keyframes bounce2{
-   from{
-    transform:translateY(0);;
-   }
-   50%{
-    transform:translateY(-10px);
-   }
-   to{
-    transform:translateY(0);
-   }
+    transform:scale(1.5);
 }
 .homeIcon:hover{
-    animation-name: bounce3;
-    animation-duration:0.5s;
-    animation-delay:250ms;
-}
-@keyframes bounce3{
-   from{
-    transform:translateY(0);;
-   }
-   50%{
-    transform:translateY(-10px);
-   }
-   to{
-    transform:translateY(0);
-   }
+    transform:scale(1.8);
 }
 .myTools:hover{
-    animation-name: bounce4;
-    animation-duration:0.5s;
-    animation-delay:250ms;
-}
-@keyframes bounce4{
-   from{
-    transform:translateY(0);;
-   }
-   50%{
-    transform:translateY(-10px);
-   }
-   to{
-    transform:translateY(0);
-   }
+    transform:scale(1.5);
 }
 .Resources:hover{
-    animation-name: bounce5;
-    animation-duration:0.5s;
-    animation-delay:250ms;
-}
-@keyframes bounce5{
-   from{
-    transform:translateY(0);;
-   }
-   50%{
-    transform:translateY(-10px);
-   }
-   to{
-    transform:translateY(0);
-   }
+    transform:scale(1.5);
 }
 .credit:hover{
     transform:scale(1.15);
@@ -87,4 +22,46 @@
 #introText:hover{
     padding-left:29vw;
     margin-bottom:3vw;
+}
+#benefitsButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
+}
+#balanceButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
+}
+#payButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
+}
+#requirementsButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
+}
+#experienceButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
+}
+#difficultyButton:hover{
+    padding:10%;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:5vw;
+    transform:translateY(-6vw);
 }

@@ -58,6 +58,7 @@
 .aboutMe{
     padding:1vw;
     padding-bottom:2vw;
+    transition: all 0.3s ease-in-out;
 }
 .dot1{
     padding:1vw;
@@ -65,6 +66,7 @@
 .TOP{
     padding:1vw;
     padding-bottom:2vw;
+    transition: all 0.3s ease-in-out;
 }
 .dot2{
     padding:1vw;
@@ -72,6 +74,7 @@
 .homeIcon{
     padding:1vw;
     padding-bottom:2vw;
+    transition: all 0.3s ease-in-out;
 }
 .dot3{
     padding:1vw;
@@ -79,6 +82,7 @@
 .myTools{
     padding:1vw;
     padding-bottom:2vw;
+    transition: all 0.3s ease-in-out;
 }
 .dot4{
     padding:1vw;
@@ -86,6 +90,7 @@
 .Resources{
     padding:1vw;
     padding-bottom:2vw;
+    transition: all 0.3s ease-in-out;
 }
 .sec1{
     display:flex;
@@ -195,46 +200,123 @@
 }
 
 #benefitsButton{
-    padding:4%;
+    display:flex;
+    padding:1.5%;
+    padding-top:4%;
+    padding-bottom:4%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #02AAB0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+#bbImage{
+    height:5vw;
+    width:100%;
 }
 #balanceButton{
-    padding:4%;
+    display:flex;
+    padding:1%;
+    padding-top:4%;
+    padding-bottom:4%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#balBImage{
+    height:5vw;
+    width:100%;
 }
 #payButton{
-    padding:4%;
+    display:flex;
+    padding:1.5%;
+    padding-top:4%;
+    padding-bottom:4%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#payImage{
+    height:5vw;
+    width:100%;
 }
 #requirementsButton{
-    padding:4%;
+    display:flex;
+    padding:1.5%;
+    padding-top:4%;
+    padding-bottom:4%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#reqImage{
+    height:5vw;
+    width:100%;
 }
 #experienceButton{
-    padding:4%;
+    display:flex;
+    padding-top:4%;
+    padding-bottom:4%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#expImage{
+    height:5vw;
+    width:85%;
 }
 #difficultyButton{
+    display:flex;
     padding:4%;
+    padding-left:1.5%;
+    padding-right:1.5%;
     border-style:solid;
     border-color:white;
     border-width:0.8vw;
     border-radius:0.8vw;
+    transition: all 0.3s ease-in-out;
+    justify-content:center;
+    align-items:center;
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#difImage{
+    height:5vw;
+    width:100%;
 }
 .listSecHeader{
     margin-top:15vw;
