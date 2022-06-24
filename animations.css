@@ -19,9 +19,13 @@
     margin-top:1.5vw;
     animation-delay:250ms;
 }
-#introText:hover{
-    padding-left:29vw;
-    margin-bottom:3vw;
+.sec2popUp:hover{
+    padding-bottom:10%;
+    padding-left:10%;
+    padding-right:10%;
+    margin-top:5vw;
+    border-top-left-radius:1vw;
+    border-top-right-radius:1vw;
 }
 #benefitsButton:hover{
     padding:10%;
