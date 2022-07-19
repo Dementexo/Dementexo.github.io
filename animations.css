@@ -5,7 +5,7 @@
     transform:scale(1.5);
 }
 .homeIcon:hover{
-    transform:scale(1.8);
+    transform:scale(1.5);
 }
 .myTools:hover{
     transform:scale(1.5);
@@ -20,10 +20,10 @@
     animation-delay:250ms;
 }
 .sec2popUp:hover{
-    padding-bottom:10%;
+    padding-bottom:8%;
     padding-left:10%;
     padding-right:10%;
-    margin-top:5vw;
+    margin-top:7vw;
     border-top-left-radius:1vw;
     border-top-right-radius:1vw;
 }
