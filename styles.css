@@ -1,6 +1,7 @@
 .webPageCont{
     width:100%;
     height:auto;
+    background-image: url('./images/cool-background.png')
 }
 .headerContainer{
     display:flex;
@@ -46,7 +47,7 @@
 }
 .navBar{
     font-size:1.2vw;
-    margin-top:7vw;
+    margin-top:6vw;
     margin-bottom:auto;
     margin-left:auto;
     margin-right:auto;
@@ -54,43 +55,63 @@
     width:85%;
     justify-content:space-evenly;
     font-family:monospace;
+    border-radius:0.5vw;
+    border-style:solid;
+    border-width:0.2vw;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .aboutMe{
+    margin-top:1vw;
     padding:1vw;
     padding-bottom:2vw;
     transition: all 0.3s ease-in-out;
+    color:white;
 }
 .dot1{
     padding:1vw;
+    margin-top:1vw;
 }
 .TOP{
+    margin-top:1vw;
     padding:1vw;
     padding-bottom:2vw;
     transition: all 0.3s ease-in-out;
+    color:white;
 }
 .dot2{
+    margin-top:1vw;
     padding:1vw;
 }
 .homeIcon{
+    margin-top:1vw;
     padding:1vw;
     padding-bottom:2vw;
     transition: all 0.3s ease-in-out;
+    color:white;
 }
 .dot3{
+    margin-top:1vw;
     padding:1vw;
 }
 .myTools{
+    margin-top:1vw;
     padding:1vw;
     padding-bottom:2vw;
     transition: all 0.3s ease-in-out;
+    color:white;
 }
 .dot4{
+    margin-top:1vw;
     padding:1vw;
 }
 .Resources{
+    margin-top:1vw;
     padding:1vw;
     padding-bottom:2vw;
     transition: all 0.3s ease-in-out;
+    color:white;
 }
 .sec1{
     display:flex;
