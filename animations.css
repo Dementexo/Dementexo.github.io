@@ -1,17 +1,40 @@
-.aboutMe:hover{
-    transform:scale(1.5);
+#leftLine{
+    animation-duration:1.5s;
 }
-.TOP:hover{
-    transform:scale(1.5);
+#headTitle{
+    animation-duration:1.5s;
 }
-.homeIcon:hover{
-    transform:scale(1.5);
+#rightLine{
+    animation-duration:1.5s;
 }
-.myTools:hover{
-    transform:scale(1.5);
+#aboutMe:hover{
+    animation: rubberBand;
+    animation-duration:1s;
 }
-.Resources:hover{
-    transform:scale(1.5);
+#TOP:hover{
+    animation: rubberBand;
+    animation-duration:1s;
+}
+#homeIcon:hover{
+    animation: rubberBand;
+    animation-duration:1s;
+}
+#myTools:hover{
+    animation: rubberBand;
+    animation-duration:1s;
+}
+#Resources:hover{
+    animation: rubberBand;
+    animation-duration:1s;
+}
+#introTop1{
+    animation-duration:2.5s;
+}
+#introTop2{
+    animation-duration:2.5s;
+}
+#introMainContent{
+    animation-duration:2.5s;
 }
 .credit:hover{
     transform:scale(1.15);
@@ -19,7 +42,7 @@
     margin-top:1.5vw;
     animation-delay:250ms;
 }
-.sec2popUp:hover{
+#sec2popUp:hover{
     padding-bottom:8%;
     padding-left:10%;
     padding-right:10%;

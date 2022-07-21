@@ -28,6 +28,8 @@ function textSubtractionOne(){
     return;
 }
 
+
+
 introMC.addEventListener('mouseout', textSubtractionOne);
 introMC.addEventListener('mouseover', box1Expansion);
 introMC.addEventListener('mouseover', textAdditionContent);
